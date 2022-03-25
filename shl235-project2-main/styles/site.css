@@ -1,0 +1,396 @@
+html,body {
+  overflow-x: hidden;
+}
+body {
+  background-color: #fff5d0;
+}
+
+.main {
+  background-color: #c26b4d;
+  padding: 3%;
+  margin-top: 20px;
+  margin-left:5%;
+  margin-right:5%;
+  align-items: center;
+}
+
+.mainbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parkingbody {
+  background-color: #c26b4d;
+  padding-top: 5px;
+  padding-top: 30px;
+  margin-top: 30px;
+  margin-left:5%;
+  margin-right:5%;
+  padding-bottom: 15px;
+}
+img.parking {
+  width: 100%;
+}
+.mainactivities {
+  align-content: center;
+  background-color: #c26b4d;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin-top: 30px;
+  margin-left:5%;
+  margin-right:5%;
+
+}
+
+.eateriesbody {
+  background-color: #c26b4d;
+  padding-top: 30px;
+  margin-left:5%;
+  margin-top: 30px;
+  margin-right:5%;
+  padding-bottom: 15px;
+}
+
+img.eateries {
+  width: 100%;
+}
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+h1 {
+  font-size: 160%;
+  font-family: serif;
+  font-weight: bold;
+  color:#783f0b;
+  text-align:center;
+}
+
+h2 {
+  font-size: 120%;
+  font-family:serif;
+  text-align: center;
+  font-weight: bold;
+  color: #633408;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h3 {
+  text-align: justify;
+  font-family: sans-serif;
+  padding-top: .5em;
+  text-align: center;
+  font-size: 110%;
+  color: #fff5d0;
+  text-decoration: underline;
+}
+
+
+h4 {
+  font-family: sans-serif;
+  font-size: 110%;
+  color: #fff5d0;
+  text-align: left;
+  margin-left: 4%;
+
+}
+h5 {
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 110%;
+  margin-left: 4%;
+  color: #fff5d0;
+}
+
+h6 {
+  font-family: sans-serif;
+  font-size: 130%;
+  text-align:left;
+  margin-left: 4%;
+  color:#fff5d0;
+}
+
+div.policy ul li {
+  padding-top: .3em;
+  color:  #fff5d0;
+  font-family: sans-serif;
+  font-size: 110%;
+  font-weight: normal;
+  line-height: 140%;
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+nav ul li a {
+  display: block;
+  border-radius: .5em;
+  border: 1.5px solid;
+  margin: .25em;
+  padding: 0.5em;
+}
+
+p {
+  font-family: sans-serif;
+  text-align: justify;
+  font-weight: normal;
+  font-size: 90%;
+  line-height: 150%;
+  color:  #fff5d0;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+figure {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 70%;
+}
+
+nav a {
+  font-family:sans-serif;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 100%;
+  color: #b3465c ;
+}
+
+nav li {
+  list-style-type: none;
+  padding-top: 2%;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+div.hours ul {
+  padding: 0;
+}
+div.hours ul li {
+  list-style-type: none;
+  line-height: 180%;
+  font-weight: bold;
+  font-size: 90%;
+  font-family:sans-serif;
+  color: #fff5d0;
+  padding: 0;
+}
+
+div.shortcutlinks ul li {
+  list-style-type: none;
+  line-height: 350%;
+  font-weight: bold;
+  font-family:sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+div.performanceschedule ul li {
+  padding-top: .3em;
+  color: #fff5d0;
+  font-family: sans-serif;
+  font-size: 200%;
+  line-height: 140%;
+  font-size: 110%;
+  text-align: left;
+  margin-left: 20px;
+
+}
+img.activities {
+  display: block;
+  width: 100%;
+}
+
+div.location p {
+  line-height: 180%;
+  font-weight: bold;
+  font-size: 100%;
+  font-family:sans-serif;
+  text-align:center;
+  color: #fff5d0;
+}
+
+div.policy {
+  margin: 0;
+  padding: 1px;
+}
+
+div.sidebar {
+  background-color: #b3465c;
+  width: 300px;
+  padding: 2%;
+  padding-bottom: 50px;
+  margin-right: 10px;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shortcutlinks ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.seemap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  font-family: sans-serif;
+  padding-right: 1em;
+  padding-left: 1em;
+  font-size: 100%;
+  color:#b3465c;
+  padding: 0.5em;
+  border-radius: .5em;
+  background-color:#fff5d0;
+  font-weight:bold;
+}
+
+img.homeimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  align-items: center;
+}
+
+/*desktop*/
+@media (min-width: 50em) {
+  .mainbody {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 2%;
+  }
+  div.performanceschedule ul li {
+    margin-left: 5px;
+  }
+
+  div.policy {
+    margin-left: 1px;
+    padding: 1px;
+  }
+
+  p {
+    font-size: 110%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  aside {
+    width: 35%;
+    margin-left: 6%;
+  }
+  .main {
+    width: 65%;
+    margin-top: 0;
+    margin-right: 10%;
+    margin-left: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+
+  }
+  h1 {
+    font-size: 220%;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 200%;
+    font-family:serif;
+    font-weight: bold;
+    text-align: center;
+    color: #633408;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  nav {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .mainactivities {
+    margin-left:20%;
+    margin-right: 20%;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+  }
+  .eateriesbody {
+    margin-left:20%;
+    margin-right: 20%;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+  }
+  img.eateries {
+    width: 80%;
+  }
+  img.activities {
+    width: 100%;
+  }
+  .parkingbody {
+    margin-left:20%;
+    margin-right: 20%;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+  }
+  h4 {
+    text-align: left;
+    margin-left: 4%;
+  }
+  h5 {
+    text-align: left;
+    margin-left: 4%;
+  }
+  h6 {
+    text-align: left;
+    margin-left: 4%;
+  }
+}
